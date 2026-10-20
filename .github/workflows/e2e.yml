@@ -24,13 +24,13 @@ jobs:
         run: npm ci
 
       - name: Instalar Browsers do Playwright
-        run: npx playwright install --with-deps[cite: 15]
+        run: npx playwright install --with-deps chromium
 
       - name: Executar Testes E2E
-        run: npm run test:e2e[cite: 15]
+        run: npm run test:e2e
 
       - name: Publicar Relatórios JUnit
         uses: mikepenz/action-junit-report@v4
         if: always()
         with:
-          report_paths: 'junit.xml'[cite: 16, 17]
+          report_paths: 'junit.xml'
