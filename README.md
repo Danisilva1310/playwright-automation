@@ -1,5 +1,7 @@
 # 🎭 Playwright E2E Automation Framework
 
+[![E2E Tests](https://github.com/Danisilva1310/playwright-automation/actions/workflows/e2e.yml/badge.svg)](https://github.com/Danisilva1310/playwright-automation/actions/workflows/e2e.yml)
+
 Boilerplate profissional de automação de testes End-to-End (E2E) utilizando **Playwright**, **TypeScript**, **Page Object Model (POM)** e relatórios com **Allure Reports**.
 
 ---
