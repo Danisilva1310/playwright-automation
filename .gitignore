@@ -1,0 +1,10 @@
+node_modules/
+.env
+
+# Diretórios de saída e evidências
+junit.xml
+allure-results/
+allure-report/
+tests/e2e/test-results/
+tests/e2e/screenshots/
+tests/e2e/videos/

@@ -1,0 +1,16 @@
+{
+  "name": "playwright-e2e-enterprise-template",
+  "version": "1.0.0",
+  "description": "Suíte de testes E2E automatizada com Playwright, TypeScript, Allure e CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "report:allure": "allure serve allure-results"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^2.10.0",
+    "typescript": "^5.0.0"
+  }
+}
