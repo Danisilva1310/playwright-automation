@@ -52,4 +52,7 @@ Executar todos os testes E2E: npm run test:e2e
 
 Gerar e abrir o relatório do Allure Report: npm run report:allure
 
-📊 Boas Práticas ImplementadasEstratégia de Seletores: Uso estrito de data-testid para garantir estabilidade dos elementos.   Massa Dinâmica: Geração e manipulação de massa de dados em ficheiros JSON com process.cwd().Rastreabilidade no Allure: Passos nomeados (allure.step) e metadados (severity, owner, description).   CI/CD: Configuração dinamicamente adaptada para pipelines com geração de relatório JUnit (junit.xml).   
+📊 Boas Práticas ImplementadasEstratégia de Seletores: Uso estrito de data-testid para garantir estabilidade dos elementos.
+Massa Dinâmica: Geração e manipulação de massa de dados em ficheiros JSON com process.cwd().
+Rastreabilidade no Allure: Passos nomeados (allure.step) e metadados (severity, owner, description).
+CI/CD: Configuração dinamicamente adaptada para pipelines com geração de relatório JUnit (junit.xml).   
